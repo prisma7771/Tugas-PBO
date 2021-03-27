@@ -7,7 +7,7 @@ package tugas1;
 
 /**
  *
- * @author Toshiba
+ * @author Prisma Putra NIM 123190048
  */
 import java.util.Scanner;
 
@@ -26,6 +26,8 @@ public class Main {
         System.out.println("======================================");
         System.out.println("|Selamat Datang di Program Input Data|");
         System.out.println("|           With JDK 15              |");
+        System.out.println("|          Prisma Putra              |");
+        System.out.println("|            123190048               |");
         System.out.println("======================================");
         System.out.print("| Masukkan Nama      : ");
         String nama = scan.nextLine();

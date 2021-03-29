@@ -5,9 +5,10 @@
  */
 package tugas1;
 
+import java.util.Scanner;
 /**
  *
- * @author Toshiba
+ * @author Prisma Putra NIM 123190048
  */
 public class Mahasiswa {
     String nama;
@@ -33,14 +34,34 @@ public class Mahasiswa {
         System.out.println("| Usia Anda :  " + usia + " Tahun");
         System.out.println("| Nilai UTS :  " + uts);
         System.out.println("| Nilai UAS :  " + uas);
-        Rata(uts,uas);
- 
-        
+        Rata(uts,uas);   
     }
     
     public void Rata(int uts, int uas)
     {
-        int total = (uas+uts)/2;
+        float total = ((float)uas+uts)/2;
          System.out.println("| Nilai Rata-Rata:  " + total);
+          System.out.println("======================================");
+    }
+    
+    public void InputData()
+    {
+        System.out.println("|            Input Data              |");
+        System.out.println("======================================");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("| Masukkan Nama      : ");
+        nama = scan.nextLine();
+        
+        System.out.print("| Masukkan NIM       : ");
+        NIM = scan.nextLine();
+        
+        System.out.print("| Masukkan Umur      : ");
+        usia = scan.nextInt();
+        
+        System.out.print("| Masukkan Nilai UTS : ");
+        uts = scan.nextInt();
+        
+        System.out.print("| Masukkan Nilai UAS : ");
+        uas = scan.nextInt();
     }
 }

@@ -6,7 +6,7 @@ package tugas2;
  * and open the template in the editor.
  */
 
-import tugas2.*;
+
 import java.util.Scanner;
 /**
  *

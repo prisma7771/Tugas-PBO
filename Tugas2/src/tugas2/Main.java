@@ -9,9 +9,9 @@ package tugas2;
 
 import java.util.Scanner;
 /**
- *
- * @author Prisma Putra (123190048) Prak PBO-E
- * Using JDK 15
+ * 
+ * @author Prisma Putra (123190048) Praktikum PBO-E
+ * Using JDK 15 
  */
 public class Main {
 

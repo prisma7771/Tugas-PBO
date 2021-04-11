@@ -6,11 +6,15 @@ package tugas2;
  * and open the template in the editor.
  */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> af5688f5cbc87c88741622f801579aeda24c1fa8
 import java.util.Scanner;
 /**
- *
- * @author Prisma Putra (123190048) Prak PBO-E
- * Using JDK 15
+ * 
+ * @author Prisma Putra (123190048) Praktikum PBO-E
+ * Using JDK 15 
  */
 public class Main {
 

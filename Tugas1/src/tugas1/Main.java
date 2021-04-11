@@ -7,7 +7,7 @@ package tugas1;
 
 /**
  *
- * @author Prisma Putra NIM 123190048
+ * @author Prisma Putra NIM 123190048 Praktikum PBO-E
  */
 import java.util.Scanner;
 

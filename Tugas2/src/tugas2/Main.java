@@ -6,10 +6,6 @@ package tugas2;
  * and open the template in the editor.
  */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> af5688f5cbc87c88741622f801579aeda24c1fa8
 import java.util.Scanner;
 /**
  * 

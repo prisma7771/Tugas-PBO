@@ -27,7 +27,7 @@ public class Kerucut extends Lingkaran implements MenghitungRuang{
     @Override
     public double VolumeRuang()
     {
-        return (Math.PI*super.getJari2()*super.getJari2()*tinggi)/3;
+        return (super.luasBidang()*tinggi)/3;
     }
     
     @Override

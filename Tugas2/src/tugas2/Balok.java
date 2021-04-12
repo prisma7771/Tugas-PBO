@@ -21,7 +21,7 @@ public class Balok extends PersegiPanjang implements MenghitungRuang{
     @Override
     public double VolumeRuang()
     {
-        return super.getPanjang()*super.getLebar()*tinggi;
+        return super.luasBidang()*tinggi;
     }
     
     @Override

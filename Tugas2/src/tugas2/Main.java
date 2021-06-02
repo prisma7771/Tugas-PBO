@@ -43,6 +43,8 @@ public class Main {
         System.out.print("Pilihan Anda: ");
         try{
         memilih = scan.nextInt();
+        
+        
         } catch (Exception error)
         {
             System.out.println("Error: " + error.getMessage());
